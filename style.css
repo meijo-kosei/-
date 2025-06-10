@@ -1,0 +1,144 @@
+body {
+    font-family: 'Helvetica Neue', 'Hiragino Kaku Gothic ProN', Meiryo, sans-serif;
+    background-color: #f4f6f9;
+    margin: 0;
+    padding: 20px;
+    color: #2c3e50;
+    line-height: 1.6;
+}
+
+h1 {
+    text-align: center;
+    color: #34495e;
+    margin-bottom: 40px;
+    font-size: 32px;
+    font-weight: 600;
+}
+
+/* フォーム */
+form {
+    background-color: #ffffff;
+    padding: 25px;
+    margin: 0 auto 40px auto;
+    max-width: 600px;
+    border-radius: 12px;
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.08);
+}
+
+input[type="text"],
+input[type="password"],
+input[type="file"],
+textarea {
+    width: 100%;
+    padding: 12px 14px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-sizing: border-box;
+    font-size: 15px;
+    background-color: #fff;
+    transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+input:focus,
+textarea:focus {
+    border-color: #3498db;
+    outline: none;
+    box-shadow: 0 0 5px rgba(52, 152, 219, 0.4);
+}
+
+textarea {
+    resize: vertical;
+    min-height: 100px;
+}
+
+input[type="submit"],
+button[type="submit"] {
+    background-color: #3498db;
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+input[type="submit"]:hover,
+button[type="submit"]:hover {
+    background-color: #2980b9;
+}
+
+/* 表 */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 30px;
+    background-color: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+th, td {
+    padding: 14px;
+    text-align: center;
+    border-bottom: 1px solid #eee;
+}
+
+th {
+    background-color: #ecf0f1;
+    color: #2c3e50;
+    font-weight: bold;
+}
+
+tr:nth-child(even) {
+    background-color: #f9fbfc;
+}
+
+tr:hover {
+    background-color: #f1f7fb;
+}
+
+img {
+    max-width: 100px;
+    height: auto;
+    border-radius: 6px;
+}
+
+/* コメント表示 */
+div[style*="margin-left"] {
+    background-color: #eaf6ff;
+    border-left: 4px solid #3498db !important;
+    padding: 12px 15px;
+    margin-top: 10px;
+    border-radius: 6px;
+    font-size: 14px;
+}
+
+/* リンク */
+a {
+    color: #3498db;
+    text-decoration: none;
+    transition: color 0.2s;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #1d6fa5;
+}
+
+.center-text {
+    text-align: center;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+/* 注意文など */
+p[style*="color:red"] {
+    font-weight: bold;
+    color: #e74c3c !important;
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 16px;
+}
